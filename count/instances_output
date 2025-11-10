@@ -1,0 +1,522 @@
+ [
+      + {
+          + ami                                  = "ami-09c813fb71547fc4f"
+          + arn                                  = "arn:aws:ec2:us-east-1:636750015241:instance/i-0dec03d4fa4361212"
+          + associate_public_ip_address          = true
+          + availability_zone                    = "us-east-1c"
+          + capacity_reservation_specification   = [
+              + {
+                  + capacity_reservation_preference = "open"
+                  + capacity_reservation_target     = []
+                },
+            ]
+          + cpu_options                          = [
+              + {
+                  + amd_sev_snp      = ""
+                  + core_count       = 1
+                  + threads_per_core = 2
+                },
+            ]
+          + credit_specification                 = [
+              + {
+                  + cpu_credits = "unlimited"
+                },
+            ]
+          + disable_api_stop                     = false
+          + disable_api_termination              = false
+          + ebs_block_device                     = []
+          + ebs_optimized                        = false
+          + enable_primary_ipv6                  = null
+          + enclave_options                      = [
+              + {
+                  + enabled = false
+                },
+            ]
+          + ephemeral_block_device               = []
+          + force_destroy                        = false
+          + get_password_data                    = false
+          + hibernation                          = false
+          + host_id                              = ""
+          + host_resource_group_arn              = null
+          + iam_instance_profile                 = ""
+          + id                                   = "i-0dec03d4fa4361212"
+          + instance_initiated_shutdown_behavior = "stop"
+          + instance_lifecycle                   = ""
+          + instance_market_options              = []
+          + instance_state                       = "running"
+          + instance_type                        = "t3.micro"
+          + ipv6_address_count                   = 0
+          + ipv6_addresses                       = []
+          + key_name                             = ""
+          + launch_template                      = []
+          + maintenance_options                  = [
+              + {
+                  + auto_recovery = "default"
+                },
+            ]
+          + metadata_options                     = [
+              + {
+                  + http_endpoint               = "enabled"
+                  + http_protocol_ipv6          = "disabled"
+                  + http_put_response_hop_limit = 1
+                  + http_tokens                 = "optional"
+                  + instance_metadata_tags      = "disabled"
+                },
+            ]
+          + monitoring                           = false
+          + network_interface                    = []
+          + outpost_arn                          = ""
+          + password_data                        = ""
+          + placement_group                      = ""
+          + placement_group_id                   = ""
+          + placement_partition_number           = 0
+          + primary_network_interface            = [
+              + {
+                  + delete_on_termination = true
+                  + network_interface_id  = "eni-0fb55635566ae93cf"
+                },
+            ]
+          + primary_network_interface_id         = "eni-0fb55635566ae93cf"
+          + private_dns                          = "ip-172-31-24-78.ec2.internal"
+          + private_dns_name_options             = [
+              + {
+                  + enable_resource_name_dns_a_record    = false
+                  + enable_resource_name_dns_aaaa_record = false
+                  + hostname_type                        = "ip-name"
+                },
+            ]
+          + private_ip                           = "172.31.24.78"
+          + public_dns                           = "ec2-13-220-88-234.compute-1.amazonaws.com"
+          + public_ip                            = "13.220.88.234"
+          + region                               = "us-east-1"
+          + root_block_device                    = [
+              + {
+                  + delete_on_termination = true
+                  + device_name           = "/dev/sda1"
+                  + encrypted             = false
+                  + iops                  = 3000
+                  + kms_key_id            = ""
+                  + tags                  = {}
+                  + tags_all              = {}
+                  + throughput            = 125
+                  + volume_id             = "vol-06cdb778774ad18f8"
+                  + volume_size           = 20
+                  + volume_type           = "gp3"
+                },
+            ]
+          + secondary_private_ips                = []
+          + security_groups                      = [
+              + "allow_all",
+            ]
+          + source_dest_check                    = true
+          + spot_instance_request_id             = ""
+          + subnet_id                            = "subnet-046bce2930ab6f1ac"
+          + tags                                 = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tags_all                             = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tenancy                              = "default"
+          + timeouts                             = null
+          + user_data                            = null
+          + user_data_base64                     = null
+          + user_data_replace_on_change          = false
+          + volume_tags                          = null
+          + vpc_security_group_ids               = [
+              + "sg-0d2e190b5e24f90fd",
+            ]
+        },
+      + {
+          + ami                                  = "ami-09c813fb71547fc4f"
+          + arn                                  = "arn:aws:ec2:us-east-1:636750015241:instance/i-0c99defc774d3d743"
+          + associate_public_ip_address          = true
+          + availability_zone                    = "us-east-1c"
+          + capacity_reservation_specification   = [
+              + {
+                  + capacity_reservation_preference = "open"
+                  + capacity_reservation_target     = []
+                },
+            ]
+          + cpu_options                          = [
+              + {
+                  + amd_sev_snp      = ""
+                  + core_count       = 1
+                  + threads_per_core = 2
+                },
+            ]
+          + credit_specification                 = [
+              + {
+                  + cpu_credits = "unlimited"
+                },
+            ]
+          + disable_api_stop                     = false
+          + disable_api_termination              = false
+          + ebs_block_device                     = []
+          + ebs_optimized                        = false
+          + enable_primary_ipv6                  = null
+          + enclave_options                      = [
+              + {
+                  + enabled = false
+                },
+            ]
+          + ephemeral_block_device               = []
+          + force_destroy                        = false
+          + get_password_data                    = false
+          + hibernation                          = false
+          + host_id                              = ""
+          + host_resource_group_arn              = null
+          + iam_instance_profile                 = ""
+          + id                                   = "i-0c99defc774d3d743"
+          + instance_initiated_shutdown_behavior = "stop"
+          + instance_lifecycle                   = ""
+          + instance_market_options              = []
+          + instance_state                       = "running"
+          + instance_type                        = "t3.micro"
+          + ipv6_address_count                   = 0
+          + ipv6_addresses                       = []
+          + key_name                             = ""
+          + launch_template                      = []
+          + maintenance_options                  = [
+              + {
+                  + auto_recovery = "default"
+                },
+            ]
+          + metadata_options                     = [
+              + {
+                  + http_endpoint               = "enabled"
+                  + http_protocol_ipv6          = "disabled"
+                  + http_put_response_hop_limit = 1
+                  + http_tokens                 = "optional"
+                  + instance_metadata_tags      = "disabled"
+                },
+            ]
+          + monitoring                           = false
+          + network_interface                    = []
+          + outpost_arn                          = ""
+          + password_data                        = ""
+          + placement_group                      = ""
+          + placement_group_id                   = ""
+          + placement_partition_number           = 0
+          + primary_network_interface            = [
+              + {
+                  + delete_on_termination = true
+                  + network_interface_id  = "eni-0ab61bf829c23102d"
+                },
+            ]
+          + primary_network_interface_id         = "eni-0ab61bf829c23102d"
+          + private_dns                          = "ip-172-31-29-55.ec2.internal"
+          + private_dns_name_options             = [
+              + {
+                  + enable_resource_name_dns_a_record    = false
+                  + enable_resource_name_dns_aaaa_record = false
+                  + hostname_type                        = "ip-name"
+                },
+            ]
+          + private_ip                           = "172.31.29.55"
+          + public_dns                           = "ec2-54-146-201-0.compute-1.amazonaws.com"
+          + public_ip                            = "54.146.201.0"
+          + region                               = "us-east-1"
+          + root_block_device                    = [
+              + {
+                  + delete_on_termination = true
+                  + device_name           = "/dev/sda1"
+                  + encrypted             = false
+                  + iops                  = 3000
+                  + kms_key_id            = ""
+                  + tags                  = {}
+                  + tags_all              = {}
+                  + throughput            = 125
+                  + volume_id             = "vol-0e61c82e548b93ffb"
+                  + volume_size           = 20
+                  + volume_type           = "gp3"
+                },
+            ]
+          + secondary_private_ips                = []
+          + security_groups                      = [
+              + "allow_all",
+            ]
+          + source_dest_check                    = true
+          + spot_instance_request_id             = ""
+          + subnet_id                            = "subnet-046bce2930ab6f1ac"
+          + tags                                 = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tags_all                             = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tenancy                              = "default"
+          + timeouts                             = null
+          + user_data                            = null
+          + user_data_base64                     = null
+          + user_data_replace_on_change          = false
+          + volume_tags                          = null
+          + vpc_security_group_ids               = [
+              + "sg-0d2e190b5e24f90fd",
+            ]
+        },
+      + {
+          + ami                                  = "ami-09c813fb71547fc4f"
+          + arn                                  = "arn:aws:ec2:us-east-1:636750015241:instance/i-0de306c687fd5766c"
+          + associate_public_ip_address          = true
+          + availability_zone                    = "us-east-1c"
+          + capacity_reservation_specification   = [
+              + {
+                  + capacity_reservation_preference = "open"
+                  + capacity_reservation_target     = []
+                },
+            ]
+          + cpu_options                          = [
+              + {
+                  + amd_sev_snp      = ""
+                  + core_count       = 1
+                  + threads_per_core = 2
+                },
+            ]
+          + credit_specification                 = [
+              + {
+                  + cpu_credits = "unlimited"
+                },
+            ]
+          + disable_api_stop                     = false
+          + disable_api_termination              = false
+          + ebs_block_device                     = []
+          + ebs_optimized                        = false
+          + enable_primary_ipv6                  = null
+          + enclave_options                      = [
+              + {
+                  + enabled = false
+                },
+            ]
+          + ephemeral_block_device               = []
+          + force_destroy                        = false
+          + get_password_data                    = false
+          + hibernation                          = false
+          + host_id                              = ""
+          + host_resource_group_arn              = null
+          + iam_instance_profile                 = ""
+          + id                                   = "i-0de306c687fd5766c"
+          + instance_initiated_shutdown_behavior = "stop"
+          + instance_lifecycle                   = ""
+          + instance_market_options              = []
+          + instance_state                       = "running"
+          + instance_type                        = "t3.micro"
+          + ipv6_address_count                   = 0
+          + ipv6_addresses                       = []
+          + key_name                             = ""
+          + launch_template                      = []
+          + maintenance_options                  = [
+              + {
+                  + auto_recovery = "default"
+                },
+            ]
+          + metadata_options                     = [
+              + {
+                  + http_endpoint               = "enabled"
+                  + http_protocol_ipv6          = "disabled"
+                  + http_put_response_hop_limit = 1
+                  + http_tokens                 = "optional"
+                  + instance_metadata_tags      = "disabled"
+                },
+            ]
+          + monitoring                           = false
+          + network_interface                    = []
+          + outpost_arn                          = ""
+          + password_data                        = ""
+          + placement_group                      = ""
+          + placement_group_id                   = ""
+          + placement_partition_number           = 0
+          + primary_network_interface            = [
+              + {
+                  + delete_on_termination = true
+                  + network_interface_id  = "eni-04f132eedb30163d9"
+                },
+            ]
+          + primary_network_interface_id         = "eni-04f132eedb30163d9"
+          + private_dns                          = "ip-172-31-18-40.ec2.internal"
+          + private_dns_name_options             = [
+              + {
+                  + enable_resource_name_dns_a_record    = false
+                  + enable_resource_name_dns_aaaa_record = false
+                  + hostname_type                        = "ip-name"
+                },
+            ]
+          + private_ip                           = "172.31.18.40"
+          + public_dns                           = "ec2-54-242-134-98.compute-1.amazonaws.com"
+          + public_ip                            = "54.242.134.98"
+          + region                               = "us-east-1"
+          + root_block_device                    = [
+              + {
+                  + delete_on_termination = true
+                  + device_name           = "/dev/sda1"
+                  + encrypted             = false
+                  + iops                  = 3000
+                  + kms_key_id            = ""
+                  + tags                  = {}
+                  + tags_all              = {}
+                  + throughput            = 125
+                  + volume_id             = "vol-04de43459de3ba71b"
+                  + volume_size           = 20
+                  + volume_type           = "gp3"
+                },
+            ]
+          + secondary_private_ips                = []
+          + security_groups                      = [
+              + "allow_all",
+            ]
+          + source_dest_check                    = true
+          + spot_instance_request_id             = ""
+          + subnet_id                            = "subnet-046bce2930ab6f1ac"
+          + tags                                 = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tags_all                             = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tenancy                              = "default"
+          + timeouts                             = null
+          + user_data                            = null
+          + user_data_base64                     = null
+          + user_data_replace_on_change          = false
+          + volume_tags                          = null
+          + vpc_security_group_ids               = [
+              + "sg-0d2e190b5e24f90fd",
+            ]
+        },
+      + {
+          + ami                                  = "ami-09c813fb71547fc4f"
+          + arn                                  = "arn:aws:ec2:us-east-1:636750015241:instance/i-0ad44e0e9b5318d94"
+          + associate_public_ip_address          = true
+          + availability_zone                    = "us-east-1c"
+          + capacity_reservation_specification   = [
+              + {
+                  + capacity_reservation_preference = "open"
+                  + capacity_reservation_target     = []
+                },
+            ]
+          + cpu_options                          = [
+              + {
+                  + amd_sev_snp      = ""
+                  + core_count       = 1
+                  + threads_per_core = 2
+                },
+            ]
+          + credit_specification                 = [
+              + {
+                  + cpu_credits = "unlimited"
+                },
+            ]
+          + disable_api_stop                     = false
+          + disable_api_termination              = false
+          + ebs_block_device                     = []
+          + ebs_optimized                        = false
+          + enable_primary_ipv6                  = null
+          + enclave_options                      = [
+              + {
+                  + enabled = false
+                },
+            ]
+          + ephemeral_block_device               = []
+          + force_destroy                        = false
+          + get_password_data                    = false
+          + hibernation                          = false
+          + host_id                              = ""
+          + host_resource_group_arn              = null
+          + iam_instance_profile                 = ""
+          + id                                   = "i-0ad44e0e9b5318d94"
+          + instance_initiated_shutdown_behavior = "stop"
+          + instance_lifecycle                   = ""
+          + instance_market_options              = []
+          + instance_state                       = "running"
+          + instance_type                        = "t3.micro"
+          + ipv6_address_count                   = 0
+          + ipv6_addresses                       = []
+          + key_name                             = ""
+          + launch_template                      = []
+          + maintenance_options                  = [
+              + {
+                  + auto_recovery = "default"
+                },
+            ]
+          + metadata_options                     = [
+              + {
+                  + http_endpoint               = "enabled"
+                  + http_protocol_ipv6          = "disabled"
+                  + http_put_response_hop_limit = 1
+                  + http_tokens                 = "optional"
+                  + instance_metadata_tags      = "disabled"
+                },
+            ]
+          + monitoring                           = false
+          + network_interface                    = []
+          + outpost_arn                          = ""
+          + password_data                        = ""
+          + placement_group                      = ""
+          + placement_group_id                   = ""
+          + placement_partition_number           = 0
+          + primary_network_interface            = [
+              + {
+                  + delete_on_termination = true
+                  + network_interface_id  = "eni-0cb6eb5dde0876069"
+                },
+            ]
+          + primary_network_interface_id         = "eni-0cb6eb5dde0876069"
+          + private_dns                          = "ip-172-31-29-243.ec2.internal"
+          + private_dns_name_options             = [
+              + {
+                  + enable_resource_name_dns_a_record    = false
+                  + enable_resource_name_dns_aaaa_record = false
+                  + hostname_type                        = "ip-name"
+                },
+            ]
+          + private_ip                           = "172.31.29.243"
+          + public_dns                           = "ec2-54-237-22-58.compute-1.amazonaws.com"
+          + public_ip                            = "54.237.22.58"
+          + region                               = "us-east-1"
+          + root_block_device                    = [
+              + {
+                  + delete_on_termination = true
+                  + device_name           = "/dev/sda1"
+                  + encrypted             = false
+                  + iops                  = 3000
+                  + kms_key_id            = ""
+                  + tags                  = {}
+                  + tags_all              = {}
+                  + throughput            = 125
+                  + volume_id             = "vol-04677486181bbe7bc"
+                  + volume_size           = 20
+                  + volume_type           = "gp3"
+                },
+            ]
+          + secondary_private_ips                = []
+          + security_groups                      = [
+              + "allow_all",
+            ]
+          + source_dest_check                    = true
+          + spot_instance_request_id             = ""
+          + subnet_id                            = "subnet-046bce2930ab6f1ac"
+          + tags                                 = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tags_all                             = {
+              + Name      = "terraform"
+              + Terraform = "true"
+            }
+          + tenancy                              = "default"
+          + timeouts                             = null
+          + user_data                            = null
+          + user_data_base64                     = null
+          + user_data_replace_on_change          = false
+          + volume_tags                          = null
+          + vpc_security_group_ids               = [
+              + "sg-0d2e190b5e24f90fd",
+            ]
+        },
+    ]
